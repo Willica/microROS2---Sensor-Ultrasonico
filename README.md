@@ -63,7 +63,7 @@ El archivo [ojo.urdf](https://github.com/Willica/microROS2-Sensor-Ultrasonico/bl
 
 - cd ojo: Dirigirse a la carpeta donde se encuentra ubicado el URDF.
 - ros2 run robot_state_publisher robot_state_publisher ojo.urdf: Comando que permite la ejecución del publicador de estados para poder visualziar el robot en RViz.
-- RViz: Comando que permite lanzar RViz.
+- rviz2: Comando que permite lanzar RViz.
 
 Para agregar la configuración ([config.rviz](https://github.com/Willica/microROS2-Sensor-Ultrasonico/tree/main/rviz_config)) debe hacer lo siguiente.
 - Mover el archivo a la terminal o Maquina Virtual.
@@ -72,11 +72,14 @@ Para agregar la configuración ([config.rviz](https://github.com/Willica/microRO
 Al hacer todo lo anterior se visualziara de la siguiente forma RViz:
 ![image](https://github.com/user-attachments/assets/9ec93f36-9613-4351-aa5e-a798b82a770d)
 
+Al ejecutar rqt_graph se visualiza la comunicación entre los nodos de la siguiente forma.
+![Captura de pantalla 2024-08-03 002513](https://github.com/user-attachments/assets/dd793a70-984a-4cb5-8a48-f35b155fd7be)
+
+
 ## Video de demostración funcionamiento.
 El video mostrado a continuación permite visualziar el funcionamiento de lo descrito de mejor forma.
 
-
-
+[![](https://youtu.be/f4G8VMUO8RI)](https://youtu.be/f4G8VMUO8RI)
 
 
 
