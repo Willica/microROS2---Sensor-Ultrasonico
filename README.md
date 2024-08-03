@@ -79,8 +79,6 @@ Al ejecutar rqt_graph se visualiza la comunicación entre los nodos de la siguie
 ## Video de demostración funcionamiento.
 El video mostrado a continuación permite visualziar el funcionamiento de lo descrito de mejor forma.
 
-[![](https://markdown-videos.deta.dev/youtu.be/f4G8VMUO8RI)](youtu.be/f4G8VMUO8RI)
-
 [![](https://markdown-videos.deta.dev/youtu.be/f4G8VMUO8RI?si=0PJyyWFF80HROmhx)](youtu.be/f4G8VMUO8RI?si=0PJyyWFF80HROmhx)
 
  
