@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <robot name="robot">
 
-  <!-- Define the eyeball as a sphere -->
+  <!-- Se define la esfera que representa un ojo -->
   <link name="base_link">
     <visual>
       <geometry>
-        <sphere radius="0.05"/> <!-- 5 cm radius -->
+        <sphere radius="0.05"/> <!-- 5 cm de radio -->
       </geometry>
       <material name="white">
-        <color rgba="1 1 1 1"/> <!-- White color -->
+        <color rgba="1 1 1 1"/> <!-- Color Blanco -->
       </material>
     </visual>
     <collision>
@@ -18,15 +18,15 @@
     </collision>
   </link>
 
-  <!-- Define the iris as a cylinder -->
+  <!-- Se define el iris -->
   <link name="sensor_link">
     <visual>
         <origin xyz="0.0 0.0 0.0" rpy="0.0 1.57 0.0"/>
       <geometry>
-        <cylinder radius="0.02" length="0.01"/> <!-- 2 cm radius, 1 cm length -->
+        <cylinder radius="0.02" length="0.01"/> <!-- 2 cm radio, 1 cm largo -->
       </geometry>
       <material name="blue">
-        <color rgba="0 0 1 1"/> <!-- Blue color -->
+        <color rgba="0 0 1 1"/> <!-- Color Azul -->
       </material>
     </visual>
     <collision>
@@ -36,11 +36,11 @@
     </collision>
   </link>
 
-  <!-- Joint connecting eyeball and iris -->
+  <!-- Junta que conecta la esfera con el iris -->
   <joint name="eye_joint" type="fixed">
     <parent link="base_link"/>
     <child link="sensor_link"/>
-    <origin xyz="0.05 0.0 0.0" rpy="0.0 0.0 0.0"/> <!-- Position of the iris relative to the eyeball -->
+    <origin xyz="0.05 0.0 0.0" rpy="0.0 0.0 0.0"/> <!-- Posicion de la esfera respecto al iris -->
   </joint>
 
 </robot>
